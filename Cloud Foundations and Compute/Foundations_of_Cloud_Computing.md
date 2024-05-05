@@ -26,8 +26,19 @@
     - [Exam Tips](#edge-exam-tips)
 - [Introducing the frameworks](#introducing-the-frameworks)
     - [Cloud Adoption Framework Overview](#cloud-adoption-framework-overview)
+        - [Cloud Transformation Domains](#cloud-transformation-domains)
+        - [Cloud Transformation Journey Phases](#cloud-transformation-journey-phases)
     - [AWS Well-Architected Framework Overview](#aws-well-architected-framework-overview)
-    - [Exam Tips](#exam-tips)
+    - [General Design Principles](#general-design-principles)
+    - [Exam Tips](#framework-exam-tips)
+- [Meeting the AWS Managment Console and Accessing AWS](#meeting-the-aws-managment-console-and-accessing-aws)
+    - [AWS Management Console](#aws-management-console)
+    - [Root User vs IAM User](#root-user-vs-iam-user)
+    - [AWS Command Line Interface (CLI)](#aws-command-line-interface-cli)
+    - [Programmatic access to AWS services](#programmatic-access-to-aws-services)
+    - [AWS Management Console Quick Quiz!](#aws-management-console-quick-quiz)
+    - [Exam Tips](#management-console-exam-tips)
+    
 
 
 
@@ -198,17 +209,76 @@ Aws groups regions into geographic areas. And can include several regions. which
 | ---------------------- | ---------------------------- | -------------------------- | ----------------------------- |
 | Migrate and modernize  | Digitize, automate, and optimize | Reimagine orchestration | Reimagine your business model |
 
+#### Cloud Transformation Journey Phases
+
+| **Envision** | **Align** | **Launch** | **Scale** |
+|-------------|-----------|------------|-----------|
+| **Benefits to business outcomes** | **Gaps across perspectives** | **Deliver initiatives with value** | **Expand sustainable initiatives** |
+
+
 
 ### AWS Well-Architected Framework Overview
-- **Well-Architected Framework**: Focuses on building secure, high-performing, resilient, and efficient infrastructure.
-- **Five Pillars**:
-    - **Operational Excellence**: Run and monitor systems to deliver business value and improve processes.
-    - **Security**: Protect information, systems, and assets while delivering business value.
-    - **Reliability**: Ensure a system can recover from failures and meet demand.
-    - **Performance Efficiency**: Use IT and computing resources efficiently.
-    - **Cost Optimization**: Avoid unnecessary costs and optimize spending.
+| Focus Area               | Description | Tools and Techniques |
+|--------------------------|-------------|----------------------|
+| **Security**             | Focuses on protection of data, systems, and any assets used by your workload. | Use **CloudTrail** to log all actions performed in your account. |
+| **Cost Optimization**    | Focuses on the ongoing process of maintaining costs in the cloud. | Use **S3 Intelligent-Tiering** to automatically move data. |
+| **Performance Efficiency** | Focuses on the ability to use computing resources efficiently to meet requirements. | Use **Lambda** to run code with zero administration. |
+| **Operational Excellence** | Focuses on creating applications that successfully support your workload. | Use **CodeCommit** for code and template version control. |
+| **Reliability**          | Focuses on architecting a workload to be consistent and able to recover quickly. | Use **Multi-AZ deployments** of RDS databases. |
+| **Sustainability**       | Focuses on environmental impacts like energy efficiency and consumption. | Use **EC2 Auto Scaling** to ensure maximum utilization. |
 
-### Exam Tips
-    
+### General Design Principles
 
+- **Stop Guessing Your Capacity Needs**
+  - Focus on precise capacity planning based on actual usage data and trends.
+  
+- **Test Systems at Production Scale**
+  - Ensure that systems are tested under production load conditions to guarantee scalability and reliability.
+  
+- **Consider Evolutionary Architectures**
+  - Embrace architectural designs that can evolve over time to meet changing business requirements.
+  
+- **Automate with Architectural Experimentation in Mind**
+  - Implement automation considering the flexibility needed for future experiments and changes.
+  
+- **Drive Architectures Using Data**
+  - Base architectural decisions on solid data analysis to optimize performance and resource utilization.
+  
+- **Improve Through Game Days**
+  - Regularly schedule game days to simulate outages and other scenarios to improve system resilience and preparedness.
+
+### Framework Exam Tips
+- **Understand the CAF Perspectives and the Cloud Transformation Journey Phases.**
+  - Gain insights into the Cloud Adoption Framework (CAF) and recognize the stages of the cloud transformation journey.
+
+- **Understand the Well-Architected Framework pillars, design principles, and how they apply in the real world.**
+  - Familiarize yourself with the foundational principles of the Well-Architected Framework and learn how to apply them effectively in practical scenarios.
+
+## Meeting the AWS Managment Console and Accessing AWS
+### AWS Management Console
+- **AWS Management Console**: Web-based interface for managing AWS services.
+- **Features**: Access to all AWS services, billing, and account management.
+### Root User vs IAM User
+- **Root User**: Account owner with full access to all AWS services.
+- **IAM User**: User created within an AWS account with specific permissions.
+### AWS Command Line Interface (CLI)
+- **AWS CLI**: Command-line tool for managing AWS services.
+### Programmatic access to AWS services
+- **Application Code**: Access from application code with SDKs using programmatic calls. Integrate directly with applications through code.
+- **Software Development Kits (SDKs)**: Access from programming languages (Java, Python, C#, and more). Extensive support for multiple programming languages enabling diverse development environments.
+
+### AWS Management Console Quick Quiz!
+#### **Your AWS account was created last week. You are logging in to your account for the second time to create some resources. Should you use the root user to log in?**
+<details>
+  <summary>Answer</summary>
+    You Should <b>NOT use the root user!</b>.
+    When you create AWS account your first steps need to be to set up MFA and create your daily user or group with that.
+</details>
+
+### Management Console Exam Tips
+| Aspect              | Description                                                       |
+|---------------------|-------------------------------------------------------------------|
+| **Root User Protection** | The root user should be protected by Multi-Factor Authentication (MFA). |
+| **Root User Power**     | The root user has power that no other user has.                   |
+| **Management Tools**    | The Command Line Interface (CLI) and Software Development Kits (SDKs) are other options to manage AWS resources. |
 
