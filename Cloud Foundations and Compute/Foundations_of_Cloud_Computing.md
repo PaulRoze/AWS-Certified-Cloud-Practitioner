@@ -38,9 +38,14 @@
     - [Programmatic access to AWS services](#programmatic-access-to-aws-services)
     - [AWS Management Console Quick Quiz!](#aws-management-console-quick-quiz)
     - [Exam Tips](#management-console-exam-tips)
-    
+- [Foundations of Cloud Computing Exam Tips](#foundations-of-cloud-computing-exam-tips)
+---
 
-
+<div style="text-align: center; margin: 20px 0;">
+    <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/">
+        <img src="https://d1.awsstatic.com/certification/badges/AWS-Certified-Cloud-Practitioner_badge_150x150.17da917fbddc5383838d9f8209d2030c8d99f31e.png" alt="AWS Certified Cloud Practitioner Badge">
+    </a>
+</div>
 
 ## CapEx vs OpEx
 - **Capital Expenditure (CapEx)**: Upfront investment in physical infrastructure, such as data centers and servers.
@@ -282,3 +287,49 @@ Aws groups regions into geographic areas. And can include several regions. which
 | **Root User Power**     | The root user has power that no other user has.                   |
 | **Management Tools**    | The Command Line Interface (CLI) and Software Development Kits (SDKs) are other options to manage AWS resources. |
 
+## Foundations of Cloud Computing Exam Tips
+- Service Categories - Reading AWS Services Whitepaper - It will help automaticly know that some of the answers are wrong.
+    - *Example* - If the question is looking a compute service to migrate to, and our answers are RDS, VPC, S3, WAF,EC2. We know that RDS, VPC, S3, WAF are not compute services. So the answer is EC2.
+- Six Advantages of Cloud Computing
+    - Going Global in Minutes
+    - Stop spending money on your own data centers
+    - Stop guessing capacity
+    - Incress speed and agility
+    - Benefit from massive economies of scale
+    - Trade fixed expenses for variable expenses
+- Cloud Computing Models
+    - IaaS - Infrastructure as a Service
+    - PaaS - Platform as a Service
+    - SaaS - Software as a Service
+- Three Cloud Deployment Models
+    - Private Cloud - Everything is run on your own infrastructure
+    - Public Cloud - Everything is run on the cloud providers infrastructure
+    - Hybrid Cloud - A mix of both
+- Regions and Availability Zones
+    - Regions are made up of Availability Zones
+    - Availability Zones are made up of multiple data centers
+    - Multi-AZ deployments provide High Availability and Fault Tolerance
+- Edge Locations
+    - Edge Locations are used to cache content for faster delivery to users
+    - Local Zones are an extension of a region enabling things like real-time gaming
+- Cloud Adoption Framework
+    - Envision, Align, Launch, Scale
+    - Six Perspectives: 
+        - Business
+        - People
+        - Governance
+        - Platform
+        - Security
+        - Operations
+- AWS Well-Architected Framework: 
+    - Security
+    - Cost Optimization
+    - Performance Efficiency
+    - Operational Excellence
+    - Reliability
+    - Sustainability
+- AWS Management Console
+    - Root User = POWER
+        - IAM User = Specific Permissions
+    - AWS CLI
+    - Programmatic access to AWS services
