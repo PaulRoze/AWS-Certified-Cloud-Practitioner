@@ -1,3 +1,9 @@
+<div style="text-align: center; margin: 20px 0;">
+    <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/">
+        <img src="https://d1.awsstatic.com/certification/badges/AWS-Certified-Cloud-Practitioner_badge_150x150.17da917fbddc5383838d9f8209d2030c8d99f31e.png" alt="AWS Certified Cloud Practitioner Badge">
+    </a>
+</div>
+
 # What Makes a Cloud Practitioner?
 
 It is foundation certification that validates overall understanding of the AWS Cloud. It is intended for individuals who have the knowledge and skills necessary to effectively demonstrate an overall understanding of the AWS Cloud, independent of specific technical roles addressed by other AWS Certifications.
