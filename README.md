@@ -1,8 +1,8 @@
-<div style="text-align: center; margin: 20px 0;">
+<p align="center">
     <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/">
         <img src="https://d1.awsstatic.com/certification/badges/AWS-Certified-Cloud-Practitioner_badge_150x150.17da917fbddc5383838d9f8209d2030c8d99f31e.png" alt="AWS Certified Cloud Practitioner Badge">
     </a>
-</div>
+</p>
 
 # What Makes a Cloud Practitioner?
 
