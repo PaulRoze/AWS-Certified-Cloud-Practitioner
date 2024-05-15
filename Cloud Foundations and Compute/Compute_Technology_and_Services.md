@@ -26,44 +26,6 @@
 
 ---
 
-<div style="text-align: center; margin: 20px 0;">
-    <div style="display: inline-block; margin: 0 10px;">
-        <a href="https://docs.aws.amazon.com/ec2/index.html">
-            <img src="https://icon.icepanel.io/AWS/svg/Compute/EC2.svg" alt="EC2">
-        </a>
-    </div>
-    <div style="display: inline-block; margin: 0 10px;">
-        <a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html">
-            <img src="https://icon.icepanel.io/AWS/svg/Containers/Elastic-Container-Service.svg" alt="Elastic-Container-Service(ECS)">
-        </a>
-    </div>
-    <div style="display: inline-block; margin: 0 10px;">
-        <a href="https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html">
-            <img src="https://icon.icepanel.io/AWS/svg/Containers/Elastic-Container-Registry.svg" alt="Elastic-Container-Registry(ECR)">
-        </a>
-    </div>
-    <div style="display: inline-block; margin: 0 10px;">
-        <a href="https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html">
-            <img src="https://icon.icepanel.io/AWS/svg/Containers/Elastic-Kubernetes-Service.svg" alt="Elastic-Kubernetes-Service(EKS)">
-        </a>
-    </div>
-    <div style="display: inline-block; margin: 0 10px;">
-        <a href="https://docs.aws.amazon.com/lambda/">
-            <img src="https://icon.icepanel.io/AWS/svg/Compute/Lambda.svg" alt="Lambda">
-        </a>
-    </div>
-    <div style="display: inline-block; margin: 0 10px;">
-        <a href="https://docs.aws.amazon.com/AmazonECS/latest/userguide/what-is-fargate.html">
-            <img src="https://icon.icepanel.io/AWS/svg/Containers/Fargate.svg" alt="Fargate">
-        </a>
-    </div>
-    <div style="display: inline-block; margin: 0 10px;">
-        <a href="https://docs.aws.amazon.com/outposts/">
-            <img src="https://icon.icepanel.io/AWS/svg/Compute/Outposts-rack.svg" alt="Outposts">
-        </a>
-    </div>
-</div>
-
 
 ## EC2
 - **Connecting to EC2:** [![Connecting to EC2](https://icon.icepanel.io/AWS/svg/Compute/EC2.svg)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
