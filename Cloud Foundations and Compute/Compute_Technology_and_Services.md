@@ -28,31 +28,42 @@
 
 <p align="center">
     <a href="https://docs.aws.amazon.com/ec2/index.html" style="margin: 0 10px;">
-        <img src="https://icon.icepanel.io/AWS/svg/Compute/EC2.svg" alt="EC2" style="margin: 0 10px;">
+        <img src="https://icon.icepanel.io/AWS/svg/Compute/EC2.svg" alt="EC2" title="EC2" style="margin: 0 10px;">
     </a>
     <a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html" style="margin: 0 10px;">
-        <img src="https://icon.icepanel.io/AWS/svg/Containers/Elastic-Container-Service.svg" alt="Elastic-Container-Service(ECS)" style="margin: 0 10px;">
+        <img src="https://icon.icepanel.io/AWS/svg/Containers/Elastic-Container-Service.svg" alt="Elastic Container Service (ECS)" title="Elastic Container Service (ECS)" style="margin: 0 10px;">
     </a>
     <a href="https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html" style="margin: 0 10px;">
-        <img src="https://icon.icepanel.io/AWS/svg/Containers/Elastic-Container-Registry.svg" alt="Elastic-Container-Registry(ECR)" style="margin: 0 10px;">
+        <img src="https://icon.icepanel.io/AWS/svg/Containers/Elastic-Container-Registry.svg" alt="Elastic Container Registry (ECR)" title="Elastic Container Registry (ECR)" style="margin: 0 10px;">
     </a>
     <a href="https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html" style="margin: 0 10px;">
-        <img src="https://icon.icepanel.io/AWS/svg/Containers/Elastic-Kubernetes-Service.svg" alt="Elastic-Kubernetes-Service(EKS)" style="margin: 0 10px;">
+        <img src="https://icon.icepanel.io/AWS/svg/Containers/Elastic-Kubernetes-Service.svg" alt="Elastic Kubernetes Service (EKS)" title="Elastic Kubernetes Service (EKS)" style="margin: 0 10px;">
     </a>
     <a href="https://docs.aws.amazon.com/lambda/" style="margin: 0 10px;">
-        <img src="https://icon.icepanel.io/AWS/svg/Compute/Lambda.svg" alt="Lambda" style="margin: 0 10px;">
+        <img src="https://icon.icepanel.io/AWS/svg/Compute/Lambda.svg" alt="Lambda" title="Lambda" style="margin: 0 10px;">
     </a>
     <a href="https://docs.aws.amazon.com/AmazonECS/latest/userguide/what-is-fargate.html" style="margin: 0 10px;">
-        <img src="https://icon.icepanel.io/AWS/svg/Containers/Fargate.svg" alt="Fargate" style="margin: 0 10px;">
+        <img src="https://icon.icepanel.io/AWS/svg/Containers/Fargate.svg" alt="Fargate" title="Fargate" style="margin: 0 10px;">
     </a>
     <a href="https://docs.aws.amazon.com/outposts/" style="margin: 0 10px;">
-        <img src="https://icon.icepanel.io/AWS/svg/Compute/Outposts-rack.svg" alt="Outposts" style="margin: 0 10px;">
+        <img src="https://icon.icepanel.io/AWS/svg/Compute/Outposts-rack.svg" alt="Outposts" title="Outposts" style="margin: 0 10px;">
+    </a>
+    <a href="https://docs.aws.amazon.com/lightsail/index.html" style="margin: 0 10px;">
+        <img src="https://icon.icepanel.io/AWS/svg/Compute/Lightsail.svg" alt="Lightsail" title="Lightsail" style="margin: 0 10px;">
+    </a>
+    <a href="https://docs.aws.amazon.com/batch/index.html" style="margin: 0 10px;">
+        <img src="https://icon.icepanel.io/AWS/svg/Compute/Batch.svg" alt="Batch" title="Batch" style="margin: 0 10px;">
+    </a>
+    <a href="https://docs.aws.amazon.com/wavelength/index.html" style="margin: 0 10px;">
+        <img src="https://icon.icepanel.io/AWS/svg/Compute/Wavelength.svg" alt="Wavelength" title="Wavelength" style="margin: 0 10px;">
     </a>
 </p>
 
 
 ## EC2
-- **Connecting to EC2:** [![Connecting to EC2](https://icon.icepanel.io/AWS/svg/Compute/EC2.svg)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
+- **Connecting to EC2:** <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html" title="Connecting to EC2">
+        <img src="https://icon.icepanel.io/AWS/svg/Compute/EC2.svg" alt="Connecting to EC2" style="vertical-align: middle;">
+    </a>
     - AWS Management Console
     - EC2 Instance Connect (EIC)
     - Secure Shell (SSH) and Remote Desktop Protocol (RDP)
@@ -73,10 +84,19 @@
     - Support for microservices architecture
     - Support for CI/CD deployment
     - Easier deployment of repetitive tasks
-- **Containers on AWS**
-    - **Amazon Elastic Container Service (ECS)** [![Amazon Elastic Container Service](https://icon.icepanel.io/AWS/svg/Containers/Elastic-Container-Service.svg)](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html)
-    - **Amazon Elastic Container Registry (ECR)** [![Amazon Elastic Container Registry](https://icon.icepanel.io/AWS/svg/Containers/Elastic-Container-Registry.svg)](https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html)
-    - **Amazon Elastic Kubernetes Service (EKS)** [![Amazon Elastic Kubernetes Service](https://icon.icepanel.io/AWS/svg/Containers/Elastic-Kubernetes-Service.svg)](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html)
+## Containers on AWS
+- **Amazon Elastic Container Service (ECS)** 
+    <a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html" title="Amazon Elastic Container Service (ECS)">
+        <img src="https://icon.icepanel.io/AWS/svg/Containers/Elastic-Container-Service.svg" alt="Amazon Elastic Container Service (ECS)" style="vertical-align: middle;">
+    </a>
+- **Amazon Elastic Container Registry (ECR)** 
+    <a href="https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html" title="Amazon Elastic Container Registry (ECR)">
+        <img src="https://icon.icepanel.io/AWS/svg/Containers/Elastic-Container-Registry.svg" alt="Amazon Elastic Container Registry (ECR)" style="vertical-align: middle;">
+    </a>
+- **Amazon Elastic Kubernetes Service (EKS)** 
+    <a href="https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html" title="Amazon Elastic Kubernetes Service (EKS)">
+        <img src="https://icon.icepanel.io/AWS/svg/Containers/Elastic-Kubernetes-Service.svg" alt="Amazon Elastic Kubernetes Service (EKS)" style="vertical-align: middle;">
+    </a>
 
     
 
@@ -167,14 +187,15 @@ graph TD;
                 B -- triggers task on --> C[Fargate]
                 C -- sends notifications to --> D[SNS]
         ```
-- # Lambda vs Fargate
-    - The key here is what sets Fargate apart from Lambda.
-    Lambda is used for short-lived, event-driven workloads, while Fargate is used for long-running, persistent workloads. If you need to run a process that takes more than 15 minutes, you should use Fargate.
+# Lambda vs Fargate
+- **Overview:**
+    - The key difference between Fargate and Lambda lies in their intended use cases. Lambda is designed for short-lived, event-driven workloads, while Fargate is suitable for long-running, persistent workloads. If you need to run a process that takes more than 15 minutes, you should use Fargate.
 
-        | Service  | Time Limit       |
-        |----------|------------------|
-        | [![Lambda](https://icon.icepanel.io/AWS/svg/Compute/Lambda.svg)](https://docs.aws.amazon.com/lambda/) **Lambda**  | < 15 minutes |
-        | [![Fargate](https://icon.icepanel.io/AWS/svg/Containers/Fargate.svg)](https://docs.aws.amazon.com/AmazonECS/latest/userguide/what-is-fargate.html) **Fargate** | > 15 minutes |
+        | Service | Time Limit |
+        |---------|------------|
+        | <a href="https://docs.aws.amazon.com/lambda/" title="Lambda"><img src="https://icon.icepanel.io/AWS/svg/Compute/Lambda.svg" alt="Lambda" style="vertical-align: middle;"></a> **Lambda** | < 15 minutes |
+        | <a href="https://docs.aws.amazon.com/AmazonECS/latest/userguide/what-is-fargate.html" title="Fargate"><img src="https://icon.icepanel.io/AWS/svg/Containers/Fargate.svg" alt="Fargate" style="vertical-align: middle;"></a> **Fargate** | > 15 minutes |
+
 
 ### Serverless Exam Tips
 - **Know**: Your responsibility when **using serverless services** like ** Lambda**
@@ -197,17 +218,35 @@ graph TD;
 - **Understand**: **Fargate** has no **upfront costs**. Pay only for the **resources used**.
 
 ## Additional Compute Services
-### Outposts [![AWS Outposts](https://icon.icepanel.io/AWS/svg/Compute/Outposts-rack.svg)](https://docs.aws.amazon.com/outposts/)
-- **AWS Outposts**  - is a fully managed service that extends AWS infrastructure, services, and tools to virtually any data center, co-location space, or on-premises facility for a consistent hybrid experience.
 
-### Lightsail [![AWS Lightsail](https://icon.icepanel.io/AWS/svg/Compute/Lightsail.svg)](https://docs.aws.amazon.com/lightsail/index.html)
-- **Amazon Lightsail** - is the easiest way for developers needing virtual private servers to start with AWS. Lightsail includes everything you need to launch your project quickly - a virtual machine, SSD-based storage, data transfer, DNS management, and a static IP - for a low, predictable price.
+### Outposts 
+<a href="https://docs.aws.amazon.com/outposts/" title="AWS Outposts">
+    <img src="https://icon.icepanel.io/AWS/svg/Compute/Outposts-rack.svg" alt="AWS Outposts" style="vertical-align: middle;">
+</a>
 
-### Batch [![AWS Batch](https://icon.icepanel.io/AWS/svg/Compute/Batch.svg)](https://docs.aws.amazon.com/batch/index.html)
-- **AWS Batch** - enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity and compute resources (e.g., CPU or memory-optimized instances) based on the volume and specific requirements of the batch jobs submitted.
+- **AWS Outposts** is a fully managed service that extends AWS infrastructure, services, and tools to virtually any data center, co-location space, or on-premises facility for a consistent hybrid experience.
 
-### Wavelength [![AWS Wavelength](https://icon.icepanel.io/AWS/svg/Compute/Wavelength.svg)](https://docs.aws.amazon.com/wavelength/index.html)
-- **AWS Wavelength** - brings AWS services to the edge of the 5G network, minimizing the latency of connecting to an application from a mobile device. Wavelength embeds AWS compute and storage services at the edge of telecommunications providers' 5G networks.
+### Lightsail 
+<a href="https://docs.aws.amazon.com/lightsail/index.html" title="AWS Lightsail">
+    <img src="https://icon.icepanel.io/AWS/svg/Compute/Lightsail.svg" alt="AWS Lightsail" style="vertical-align: middle;">
+</a>
+
+- **Amazon Lightsail** is the easiest way for developers needing virtual private servers to start with AWS. Lightsail includes everything you need to launch your project quickly - a virtual machine, SSD-based storage, data transfer, DNS management, and a static IP - for a low, predictable price.
+
+### Batch 
+<a href="https://docs.aws.amazon.com/batch/index.html" title="AWS Batch">
+    <img src="https://icon.icepanel.io/AWS/svg/Compute/Batch.svg" alt="AWS Batch" style="vertical-align: middle;">
+</a>
+
+- **AWS Batch** enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity and compute resources (e.g., CPU or memory-optimized instances) based on the volume and specific requirements of the batch jobs submitted.
+
+### Wavelength 
+<a href="https://docs.aws.amazon.com/wavelength/index.html" title="AWS Wavelength">
+    <img src="https://icon.icepanel.io/AWS/svg/Compute/Wavelength.svg" alt="AWS Wavelength" style="vertical-align: middle;">
+</a>
+
+- **AWS Wavelength** brings AWS services to the edge of the 5G network, minimizing the latency of connecting to an application from a mobile device. Wavelength embeds AWS compute and storage services at the edge of telecommunications providers' 5G networks.
+
 
 ### Additional Compute Services Quick Quiz!
 #### **You need to select a service to implement a quick deployment of a small temporary test environment. What service can you use to accomplish this?**
