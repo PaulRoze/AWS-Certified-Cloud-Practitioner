@@ -26,6 +26,30 @@
 
 ---
 
+<p align="center">
+    <a href="https://docs.aws.amazon.com/ec2/index.html" style="margin: 0 10px;">
+        <img src="https://icon.icepanel.io/AWS/svg/Compute/EC2.svg" alt="EC2" style="margin: 0 10px;">
+    </a>
+    <a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html" style="margin: 0 10px;">
+        <img src="https://icon.icepanel.io/AWS/svg/Containers/Elastic-Container-Service.svg" alt="Elastic-Container-Service(ECS)" style="margin: 0 10px;">
+    </a>
+    <a href="https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html" style="margin: 0 10px;">
+        <img src="https://icon.icepanel.io/AWS/svg/Containers/Elastic-Container-Registry.svg" alt="Elastic-Container-Registry(ECR)" style="margin: 0 10px;">
+    </a>
+    <a href="https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html" style="margin: 0 10px;">
+        <img src="https://icon.icepanel.io/AWS/svg/Containers/Elastic-Kubernetes-Service.svg" alt="Elastic-Kubernetes-Service(EKS)" style="margin: 0 10px;">
+    </a>
+    <a href="https://docs.aws.amazon.com/lambda/" style="margin: 0 10px;">
+        <img src="https://icon.icepanel.io/AWS/svg/Compute/Lambda.svg" alt="Lambda" style="margin: 0 10px;">
+    </a>
+    <a href="https://docs.aws.amazon.com/AmazonECS/latest/userguide/what-is-fargate.html" style="margin: 0 10px;">
+        <img src="https://icon.icepanel.io/AWS/svg/Containers/Fargate.svg" alt="Fargate" style="margin: 0 10px;">
+    </a>
+    <a href="https://docs.aws.amazon.com/outposts/" style="margin: 0 10px;">
+        <img src="https://icon.icepanel.io/AWS/svg/Compute/Outposts-rack.svg" alt="Outposts" style="margin: 0 10px;">
+    </a>
+</p>
+
 
 ## EC2
 - **Connecting to EC2:** [![Connecting to EC2](https://icon.icepanel.io/AWS/svg/Compute/EC2.svg)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
