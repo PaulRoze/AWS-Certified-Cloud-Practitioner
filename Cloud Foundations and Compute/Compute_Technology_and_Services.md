@@ -73,8 +73,8 @@
     - AWS Systems Manager
 
 ## Containers
-### Continers Overview**
-- **what is containers?** - Containers are a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
+### Containers Overview**
+- **What are containers?** - Containers are a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
 - **Benefits of containers**
         - Portability
         - Operational consistency
@@ -86,7 +86,7 @@
     - Refactoring applications
     - Support for microservices architecture
     - Support for CI/CD deployment
-    - Easier deployment of repettive tasks
+    - Easier deployment of repetitive tasks
 - **Containers on AWS**
     - **Amazon Elastic Container Service (ECS)** [![Amazon Elastic Container Service](https://icon.icepanel.io/AWS/svg/Containers/Elastic-Container-Service.svg)](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html)
     - **Amazon Elastic Container Registry (ECR)** [![Amazon Elastic Container Registry](https://icon.icepanel.io/AWS/svg/Containers/Elastic-Container-Registry.svg)](https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html)
@@ -133,10 +133,10 @@ graph TD;
 ### What is Serverless?
 - **Serverless** is a cloud computing model that allows you to build and run applications and services without thinking about servers.
 ### Lambda Overview
-- AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers. the you write in Lambda is called a **Lambda function**. can use alot of languages like: Node.js, Python, Ruby, Java, Go, .NET Core, and custom runtime. Lambda scales automatically, and you pay only for the compute time you consume.
+- AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers. What you write in Lambda is called a **Lambda function**. Can use a lot of languages like Node.js, Python, Ruby, Java, Go, .NET Core, and custom runtime. Lambda scales automatically, and you pay only for the compute time you consume.
 
 #### Lambda Use Cases
-- Real-time file processing - Lambda can process files as they are uploaded to S3.
+- Real-time file processing - Lambda can process files as uploaded to S3.
     - **Example**:
         ```mermaid
             graph LR;
@@ -166,7 +166,7 @@ graph TD;
 - **AWS Fargate** is a serverless compute engine for containers that works with both **Elastic Container Service (ECS)** and **Elastic Kubernetes Service (EKS)**. Fargate allows you to run containers without having to manage the underlying infrastructure.
 
 #### Faragate Use Cases
-- **Message-Driven Workloads** - Fargate can be used to process messages from a queue.
+- **Message-Driven Workloads** - Fargate can process messages from a queue.
     - **Example**:
         ```mermaid
             graph LR;
@@ -182,7 +182,7 @@ graph TD;
                 C -- sends notifications to --> D[SNS]
         ```
 - # Lambda vs Fargate
-    - The key here that sets Fargate aprt from Lambda.
+    - The key here is what sets Fargate apart from Lambda.
     Lambda is used for short-lived, event-driven workloads, while Fargate is used for long-running, persistent workloads. If you need to run a process that takes more than 15 minutes, you should use Fargate.
 
         | Service  | Time Limit       |
@@ -198,30 +198,30 @@ graph TD;
 ### Lambda Pricing
 - **Number of requests**: You are charged based on the number of requests for your functions.
 - **Duration**: You are charged based on the time it takes for your code to execute.
-- **No charge**: If your code is not running, you are not charged.
+- **No charge**: You are not charged if your code is not running.
 - **Free tier**: 1 million requests per month.
 
 ### Fargate Pricing
-- **No upfront costs**: You pay only for the vCPU and memory that you use.
-- **Pay resources**: You pay for the resources you use, per second.
-- **No free tier**: Fargate does not have a free tier.
+- **No upfront costs**: You pay only for the vCPU and memory you use.
+- **Pay resources**: You pay for the resources you use per second.
+- **No free tier**: Fargate has no free tier.
 
 ### Serveless Pricing Exam Tips
 - **Know**: **Lambda** has an **always Free tier** that includes **1 million** requests per month.
-- **Understand**: **Fargate** has no **upfront costs**. Payonly for the **resources used**.
+- **Understand**: **Fargate** has no **upfront costs**. Pay only for the **resources used**.
 
 ## Additional Compute Services
 ### Outposts [![AWS Outposts](https://icon.icepanel.io/AWS/svg/Compute/Outposts-rack.svg)](https://docs.aws.amazon.com/outposts/)
-- **AWS Outposts**  - is a fully managed service that extends AWS infrastructure, services, and tools to virtually any datacenter, co-location space, or on-premises facility for a truly consistent hybrid experience.
+- **AWS Outposts**  - is a fully managed service that extends AWS infrastructure, services, and tools to virtually any data center, co-location space, or on-premises facility for a consistent hybrid experience.
 
 ### Lightsail [![AWS Lightsail](https://icon.icepanel.io/AWS/svg/Compute/Lightsail.svg)](https://docs.aws.amazon.com/lightsail/index.html)
-- **Amazon Lightsail** - is the easiest way to get started with AWS for developers who just need virtual private servers. Lightsail includes everything you need to launch your project quickly - a virtual machine, SSD-based storage, data transfer, DNS management, and a static IP - for a low, predictable price.
+- **Amazon Lightsail** - is the easiest way for developers needing virtual private servers to start with AWS. Lightsail includes everything you need to launch your project quickly - a virtual machine, SSD-based storage, data transfer, DNS management, and a static IP - for a low, predictable price.
 
 ### Batch [![AWS Batch](https://icon.icepanel.io/AWS/svg/Compute/Batch.svg)](https://docs.aws.amazon.com/batch/index.html)
-- **AWS Batch** - enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity and type of compute resources (e.g., CPU or memory-optimized instances) based on the volume and specific requirements of the batch jobs submitted.
+- **AWS Batch** - enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity and compute resources (e.g., CPU or memory-optimized instances) based on the volume and specific requirements of the batch jobs submitted.
 
-### Wavelegth [![AWS Wavelegth](https://icon.icepanel.io/AWS/svg/Compute/Wavelength.svg)](https://docs.aws.amazon.com/wavelength/index.html)
-- **AWS Wavelength** - brings AWS services to the edge of the 5G network, minimizing the latency to connect to an application from a mobile device. Wavelength embeds AWS compute and storage services at the edge of telecommunications providers' 5G networks.
+### Wavelength [![AWS Wavelength](https://icon.icepanel.io/AWS/svg/Compute/Wavelength.svg)](https://docs.aws.amazon.com/wavelength/index.html)
+- **AWS Wavelength** - brings AWS services to the edge of the 5G network, minimizing the latency of connecting to an application from a mobile device. Wavelength embeds AWS compute and storage services at the edge of telecommunications providers' 5G networks.
 
 ### Additional Compute Services Quick Quiz!
 #### **You need to select a service to implement a quick deployment of a small temporary test environment. What service can you use to accomplish this?**
@@ -230,10 +230,10 @@ graph TD;
     <b>Lightsail</b> is perfect for quick launches of small projects like test environments or preconfigured WordPress websites.
 </details>
 
-#### **You need to suggest a service that will allow your data to reside in your data center and support a hybrid deployment model. What can you use to do this?**
+#### **You must suggest a service allowing your data to reside in your data center and support a hybrid deployment model. What can you use to do this?**
 <details>
   <summary>Answer</summary>
-    <b>Outpost</b> provide low latency and meet data residency or sovereighty regulations while still supporting a hybrid deployment model.
+    <b>Outpost</b> provides low latency and meets data residency or sovereignty regulations while supporting a hybrid deployment model.
 </details>
 
 ### Additional Compute Services Exam Tips
